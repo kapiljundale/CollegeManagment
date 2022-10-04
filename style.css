@@ -1,42 +1,91 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: #eed758;
 }
 
 .header_img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
+
+/* Top Menu Bar*/
 
 .header_img img {
     width: 100vw;
     height: 20vh;
 }
-.menu_bar{
-    display: flex;
-    flex-direction: column;
-    height: 75vh;
-    width: 15vw;
+
+.header_menu ul {
     list-style: none;
-}
-.menu_bar li{
+    border-bottom: 1px solid black;
+    justify-content: end;
     display: flex;
-    flex-direction: column;
-    height: 150px;
-    justify-content: space-around;
-}
-.menu_bar li a{
-    background-color: #75a2f7;
-    text-decoration: none;
-    color: white;
-    letter-spacing: 2px;
-    font-weight: bolder;
-    padding: 10px;
-    text-align: center;
-    transition: 0.5s;
-}
-.menu_bar li a:hover{
-    color: wheat;
-    background-color: #c92424;
+    height: 5vh;
+    align-items: center;
+    box-shadow: 2px -2px 100px red;
 }
 
+.header_menu ul li {
+    margin: 0 35px;
+}
+
+.header_menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.header_menu ul li:hover {
+    background-color: blueviolet;
+}
+
+/* This source code are side bar*/
+.main_menu {
+    border: 1px solid black;
+    width: 15vw;
+    height: 44vh;
+    text-align: left;
+}
+
+.main_menu ul {
+    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.main_menu ul li {
+    width: 180px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    padding: 3px;
+    border-bottom: 1px solid maroon;
+}
+.main_menu ul li:last-child{
+    border: none;
+}
+
+.main_menu ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.sub_menu {
+    display: none;
+}
+
+.main_menu ul li:hover .sub_menu {
+    display: block;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 200px;
+}
+
+.main_menu ul li:hover .sub_menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.fa {
+    color: white;
+    float: right;
+}
