@@ -45,6 +45,7 @@
     width: 15vw;
     height: 42vh;
     text-align: left;
+    background-color: #f7d82c;
 }
 
 .main_menu ul {
@@ -58,6 +59,7 @@
     margin-bottom: 3px;
     margin-top: 2px;
     padding: 3px;
+    background-color: #f7d82c;
     border-bottom: 1px solid maroon;
 }
 .main_menu ul li:last-child{
