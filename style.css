@@ -1,12 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: gray;
 }
-.header_img{
+
+.header_img {
     border: 1px solid black;
 }
-.header_img img{
+
+.header_img img {
     width: 100vw;
     height: 20vh;
 }
+.menu_bar{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 15vw;
+    list-style: none;
+}
+.menu_bar li{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+}
+.menu_bar li a{
+    background-color: #75a2f7;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+
