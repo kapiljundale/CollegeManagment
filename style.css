@@ -33,5 +33,10 @@
     font-weight: bolder;
     padding: 10px;
     text-align: center;
+    transition: 0.5s;
+}
+.menu_bar li a:hover{
+    color: wheat;
+    background-color: #c92424;
 }
 
