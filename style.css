@@ -79,8 +79,8 @@
 .main_menu ul li:hover .sub_menu {
     display: block;
     position: absolute;
-    margin-top: -20px;
-    margin-left: 200px;
+    margin-top: -18px;
+    margin-left: 184px;
 }
 
 .main_menu ul li:hover .sub_menu ul {
