@@ -63,7 +63,8 @@
     background-color: #f7d82c;
     border-bottom: 1px solid maroon;
 }
-.main_menu ul li:last-child{
+
+.main_menu ul li:last-child {
     border: none;
 }
 
@@ -88,17 +89,36 @@
     display: block;
     margin: 10px;
 }
-.main_menu ul li a:hover{
+
+.main_menu ul li a:hover {
     color: white;
 }
 
 .fa {
     color: white;
     float: right;
+
 }
-iframe{
- float: right;   
- height: 90vh;
- width: 1157px;
- background-color: #a8b8b8;
+
+.image{
+    float: right;
+}
+.image img{
+    width: 84vw;
+    height: 42vh;
+}
+.box{
+    margin: 12PX 0 0 5PX;
+    width: 180px;
+    height: 315px;
+    border: 2px solid maroon;
+}
+.box h1{
+    text-align: center;
+    background-color: #f7d82c;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.box p{
+    
 }
