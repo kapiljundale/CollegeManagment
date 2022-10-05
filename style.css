@@ -41,6 +41,7 @@
 
 /* This source code are side bar*/
 .main_menu {
+    display: inline;
     border: 1px solid black;
     width: 15vw;
     height: 42vh;
@@ -90,4 +91,10 @@
 .fa {
     color: white;
     float: right;
+}
+iframe{
+ float: right;   
+ height: 90vh;
+ width: 1157px;
+ background-color: #a8b8b8;
 }
