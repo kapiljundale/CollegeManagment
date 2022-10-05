@@ -70,6 +70,7 @@
 .main_menu ul li a {
     color: blue;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .sub_menu {
@@ -86,6 +87,9 @@
 .main_menu ul li:hover .sub_menu ul {
     display: block;
     margin: 10px;
+}
+.main_menu ul li a:hover{
+    color: white;
 }
 
 .fa {
