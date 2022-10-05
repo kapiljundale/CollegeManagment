@@ -1,3 +1,176 @@
-*{
-    background-color: gray;
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #eed758;
+}
+
+.header_img {
+    /* border: 1px solid black; */
+}
+
+/* Top Menu Bar*/
+
+.header_img img {
+    width: 100vw;
+    height: 20vh;
+}
+
+.header_menu ul {
+    list-style: none;
+    border-bottom: 1px solid black;
+    justify-content: end;
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    box-shadow: 2px -2px 100px red;
+}
+
+.header_menu ul li {
+    margin: 0 35px;
+}
+
+.header_menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.header_menu ul li:hover {
+    background-color: blueviolet;
+}
+
+/* This source code are side bar*/
+.main_menu {
+    display: inline;
+    border: 1px solid black;
+    width: 15vw;
+    height: 42vh;
+    text-align: left;
+    background-color: #f7d82c;
+}
+
+.main_menu ul {
+    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.main_menu ul li {
+    width: 234px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    padding: 3px;
+    background-color: #f7d82c;
+    border-bottom: 1px solid maroon;
+}
+
+.main_menu ul li:last-child {
+    border: none;
+}
+
+.main_menu ul li a {
+    color: blue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.sub_menu {
+    display: none;
+}
+
+.sub_menu_2 {
+    display: none;
+}
+
+.sub_menu ul li:hover .sub_menu_2 {
+    display: block;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 230px;
+}
+
+.main_menu ul li:hover .sub_menu {
+    display: block;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 230px;
+}
+
+.main_menu ul li:hover .sub_menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.main_menu ul li a:hover {
+    color: white;
+}
+
+.fa {
+    color: white;
+    float: right;
+
+}
+
+.image {
+    float: right;
+}
+
+.image img {
+    width: 81vw;
+    height: 42vh;
+}
+
+.show_box {
+    display: flex;
+    width: 100%;
+}
+
+.right_box {
+    float: left;
+    border: 2px solid gray;
+    height: 230px;   
+    width: 320px;
+    margin: 0 10px;
+}
+.right_box h1{
+    background-color: #f3d007;
+    font-size: 20px;
+}
+.content_box {
+    border: 2px solid gray;
+    height: 230px;   
+    width: 800px;
+}
+.content_box h1{
+    background-color: #f3d007;
+    font-size: 20px;
+}
+.content_box ul{
+    list-style: square;
+    margin: 10px 30px;
+}
+.content_box ul li{
+    
+}
+.content_box ul li a{
+    text-decoration: none;
+}
+.content_box mark{
+    color: black;
+    font-weight: bolder;
+    margin-left: 7px;
+    background-color: red;
+    border-radius: 7px;
+}
+
+.left_box {
+    float: right;
+    border: 2px solid gray;
+    height: 700px;   
+    width: 320px;
+    margin: 0 10px;
+}
+.left_box h1{
+    background-color: #f3d007;
+    font-size: 20px;
 }
